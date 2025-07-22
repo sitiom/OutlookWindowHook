@@ -4,9 +4,20 @@ Keeps Outlook running in the background when the main window is closed, similar 
 
 **Currently only works with the new Outlook client** - if there's enough interest I'd be happy to implement support for older versions!
 
-## Download
+## Installation
 
-You can find the installer or a standalone version [on the Releases page here](https://github.com/Palsternakka/OutlookWindowHook/releases) - please note for the standalone version `OlkWindowHook.dll` must be in the same directory as `OlkWindowHook.exe`
+You can find the installer or a standalone version [on the Releases page here](https://github.com/Palsternakka/OutlookWindowHook/releases) - please note for the standalone version `OlkWindowHook.dll` must be in the same directory as `OlkWindowHook.exe`. If you prefer to use a package manager, you can choose one of the following options:
+
+### Winget
+```powershell
+winget install Palsternakka.OutlookWindowHook
+```
+
+### Scoop
+```powershell
+scoop bucket add extras # Ensure bucket is added first
+scoop install outlook-window-hook
+```
 
 ## Features
 
